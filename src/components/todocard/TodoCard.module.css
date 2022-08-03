@@ -1,0 +1,51 @@
+.header {
+    font-weight: 700;
+    font-size: xx-large;
+    color: #666666;
+   display: block !important;
+   text-align: center;
+}
+
+
+.main_container {
+    padding: 10px;
+
+}
+
+/* container icons */
+.containericons
+{
+    display: flex;
+    justify-content: center;
+}
+.containericons > * 
+{
+    margin:0px 4px ;
+}
+.containericons > *:hover 
+{
+    cursor: pointer;
+}
+
+
+
+.todo_container {
+    background-color: white;
+    padding: 40px;
+   border-radius: var(--bordercontainer);;
+}
+
+
+
+
+.card_todo {
+    padding: 4px;
+    border-radius: var(--bordercard) !important;
+    word-break: break-all;
+}
+
+
+.DeleteIcon 
+{
+    color: #cc3333;
+}

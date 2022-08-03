@@ -1,0 +1,31 @@
+
+
+    .whiteTitle    .ant-card-head-title {
+        color: white !important;
+    }
+    .whiteTitle .ant-card-head
+    {
+        color: white !important;
+    }
+    
+    
+    .blackTitle      .ant-card-head-title
+    {
+        color: black !important;
+    }
+    .blackTitle .ant-card-head
+    {
+        color: black !important;
+    }
+    
+
+    @media (max-width:550px)
+    {
+        .ant-modal-body
+        {
+            flex-direction: column;
+        }
+    }
+
+
+    

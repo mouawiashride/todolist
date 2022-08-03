@@ -1,0 +1,34 @@
+.header {
+    font-weight: 700;
+    font-size: xx-large;
+    color: #666666;
+   display: block !important;
+   text-align: center;
+}
+
+
+.main_container {
+    padding: 10px;
+}
+
+
+
+.todo_container {
+    background-color: white;
+    padding: 40px;
+   border-radius: var(--bordercontainer);;
+}
+
+
+.card_todo {
+    padding: 4px;
+    border-radius: var(--bordercard) !important;
+}
+
+
+.DeleteIcon 
+{
+    color: #cc3333;
+}
+
+

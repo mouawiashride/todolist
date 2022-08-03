@@ -1,0 +1,123 @@
+:root {
+    --bordercard: 25px;
+    --bordercontainer:35px;
+
+    --background_color:#f3f2f7
+  }
+
+body 
+{
+    background-color: var(--background_color);
+}
+
+
+
+.container{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    padding-right:15px;
+    padding-left:15px
+  }
+
+@media (max-width:600px)
+{
+  .ant-card-head-wrapper
+  {
+    flex-direction: column !important;
+  }
+  .ant-card-head-title
+  {
+    white-space: initial !important;
+  }
+}
+
+  @media (min-width: 476px){
+    .container{
+      padding-right:15px;
+      padding-left:15px
+    }
+  }
+  @media (min-width: 768px){
+    .container{
+      padding-right:15px;
+      padding-left:15px
+    }
+  }
+  @media (min-width: 992px){
+    .container{
+      padding-right:15px;
+      padding-left:15px
+    }
+  }
+  @media (min-width: 1200px){
+    .container{
+      padding-right:15px;
+      padding-left:15px
+    }
+  }
+  @media (min-width: 476px){
+    .container{
+      width:100%
+    }
+  }
+  @media (min-width: 768px){
+    .container{
+      width:720px;
+      max-width:100%
+    }
+  }
+  @media (min-width: 992px){
+    .container{
+      width:960px;
+      max-width:100%
+    }
+  }
+  @media (min-width: 1200px){
+    .container{
+      width:1140px;
+      max-width:100%
+    }
+  }
+  @media (min-width: 1400px){
+    .container{
+      width:1340px;
+      max-width:100%
+    }
+  }
+
+
+
+ /* edit ant design-header */
+
+ .ant-page-header-heading 
+ {
+    justify-content: center !important;
+ }
+
+
+
+ /* edit card Title ant-design */
+ .ant-card-head
+ {
+
+    border: none !important;
+ }
+ .ant-card-head-title
+ {
+  padding: 0px !important;
+ }
+ .ant-card-body
+ {
+  padding-top: 0px !important;
+ }
+
+
+
+
+
+
+ .ant-layout-content
+ {
+  width: 100% !important;
+ }
